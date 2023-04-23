@@ -1,0 +1,239 @@
+body{
+    background-color: white;
+}
+
+.container1{
+    margin-top: 22px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+
+.seb{
+    width: 100px;
+    height: 30px;
+    margin-right: 20px;
+    padding-top: 5px;
+    padding-left: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.seb:hover{
+    color: rgba(128, 128, 128, 0.596);
+}
+
+.chap{
+    background-color: grey;
+    width: 120px;
+    padding-left: 12px;
+    padding-top: 5px;
+    color: rgba(255, 255, 255, 0.89);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+
+}
+
+.set{
+    width: 100px;
+    height: 30px;
+    margin-left: 20px;
+    padding-top: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.set:hover{
+    color: rgba(128, 128, 128, 0.596);
+}
+
+.comic-page{
+    display: flex;
+    justify-content: center;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-first{
+    margin-left: 0;
+    margin-bottom: -5px;
+}
+
+.up{
+    background-color: rgba(128, 128, 128, 0.616);
+    width: 80px;
+    height: 28px;
+    padding-left: 20px;
+    padding-top: 5px;
+    color: rgba(255, 255, 255, 0.89);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.up:hover{
+    background-color:rgba(0, 0, 0, 0.116);
+    color: rgba(0, 0, 0, 0.336);
+}
+
+.eps{
+    width: 50px;
+    height: 30px;
+    padding-top: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hamburger0{
+    margin-left: 80px;
+    margin-right: -20px;
+
+}
+
+.hamburger-zero{
+    position: absolute;
+    right: 12px;
+    padding-top: 2px;
+    z-index: 0;
+}
+
+.img-first-con{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.contoh{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container-up{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+hr{
+    width: auto;
+}
+
+<!----------------------->
+
+
+
+a {
+    color: white;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+}
+
+.kurung{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#accordion{
+    margin-top: 0px;
+}
+
+#accordion li{
+    list-style: none;
+    width: 100%;
+    margin-left: -70px;
+    margin-bottom: 10px;
+    background: rgb(255, 245, 245);
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 2px;
+    color: rgba(0, 0, 0, 0.911);
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#accordion li label{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    color: rgba(44, 3, 3, 0.76);
+}
+
+#accordion li label span{
+    transform: rotate(90deg);
+    font-size: 12px;
+    color: rgb(44, 3, 3);
+    margin-left: 10px;
+
+}
+
+#accordion li label + input[type="radio"]{
+    display: none;
+}
+
+#accordion .content{
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    font-size: 18px;
+}
+
+#accordion li label + input[type="radio"]:checked + .content{
+    max-height: 1000px;
+}
+
+.askparent{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: grey;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.teks {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.container-faq{
+    width: auto;
+    display: flex;
+    padding-left: 50px
+}
+
+.container-faq{
+    margin-left: 50px;
+    display: flex;
+}
+
+.askparent1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.soon{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    
+}

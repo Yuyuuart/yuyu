@@ -1,0 +1,73 @@
+<!--FAQ-->
+    <div class="container0" style="margin-top: 20px;">
+        <div class="sesi1">
+            <div class="number1" style="color: rgba(128, 128, 128, 0.486); font-size: 20px;">< Ask and Answer</div>
+        </div>
+    
+        <div class="sesi1">
+            <div class="number1" style="font-size: 15px; margin-right: 20px; color: rgba(128, 128, 128, 0.644);"> </div>
+        </div>
+    </div>
+
+    <div class="faq">
+        <div class="askparent1">
+            <div class="askparent" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: black; font-weight: 400;">
+                FAQ
+            </div>
+    
+            <div class="askparent2">
+    
+            </div>
+        </div>
+        
+
+        <div class="container-faq">
+
+            <ul id="accordion">
+                <li>
+                    <label for="first">Siapa yang membuat Angel Rebella? <span>&#x3e;</span></label>
+                    <input type="radio" name="accordion" id="first" checked>
+                    <div class="content">
+                        <p>Pembuatan kisah, latar/alur, gambar dan lukisan, keseluruhan komik di buat oleh Yuyuu, Kreator dari Angel Rebella.</p>
+                    </div>
+                </li>
+                <li>
+                    <label for="second">Apakah boleh mengambil gambar, mendownload ataupun meng-screenshot konten yang ada di dalam Angel Rebella? <span>&#x3e;</span></label>
+                    <input type="radio" name="accordion" id="second">
+                    <div class="content">
+                        <p>Mengambil gambar, menscreenshot ataupun sejenisnya tanpa di ketahui oleh sang pemilik atau pun sang penerbit konten dari "Angel Rebella", itu di sebut sebagai pencurian. Dan itu merupakan hal yang keji, rendah, memalukan dan tidak punya etika. jadi singkatnya, Tidak boleh mengambil gambar, mendownload, ataupun mengambil konten secara di sengaja atau pun tidak di sengaja. Bila seseorang mengetahui/diketahui melakukan tindakan tersebut silahkan laporkan di sini. <br> Satu satu nya jalan secara legal dan sah untuk memiliki atau menggunakan produk, seni dari Angel Rebella. Bisa langsung membelinya di Shop.</p>
+                    </div>
+                </li>
+                <li>
+                    <label for="third">Apakah boleh melakukan fanart seni Angel Rebella? <span>&#x3e;</span></label>
+                    <input type="radio" name="accordion" id="third" >
+                    <div class="content">
+                        <p>Boleh, bebas. Kami sangat senang dengan itu, tunjukan kreativitasmu. dan jangan lupa tag kami pada setiap postingannya.</p>
+                    </div>
+                </li>
+                <li>
+                    <label for="fourth">berapa lama proses orderan berlangsung? <span>&#x3e;</span></label>
+                    <input type="radio" name="accordion" id="fourth" >
+                    <div class="content">
+                        <p>kami membuat detail satu persatu, menggambar satu per satu. Untuk 1 paket orderan biasanya memakan waktu 1-2 hari. Apabila kamu memesan lebih dari 1 paket bisa memakan waktu 3-5 hari. sesuai banyak nya jumlah order-an. <br> Untuk produk digital seperti walpaper, badge dan lain lain biasanya langsung di kirim begitu anda meng-order.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <label for="fifth">file apa yang akan di kirimkan setelah pesanan selesai? <span>&#x3e;</span></label>
+                    <input type="radio" name="accordion" id="fifth" >
+                    <div class="content">
+                        <p>PNG file gambar (background + transparan background), jpeg file gambar dan pdf file (untuk di print). semuanya akan di kirim langsung ke dalam zip ataupun lewat google drive. apabila anda memesan beserta bentuk fisik (figura, dekorasi, kaos, dll), kami akan mengirmkan ke alamat yang anda cantumkan melalui jasa kurir antar paket. selengkapnya liat di sini (pencilley.com/send) untuk proses order-an secara fisik.</p>
+                    </div>
+                </li>
+                <li>
+                    <label for="sixth">Mengapa memilih produk Meowww? <span>&#x3e;</span></label>
+                    <input type="radio" name="accordion" id="sixth" >
+                    <div class="content">
+                        <p>Produk meowww adalah produk handmade alias buatan tangan, yang di buat secara details satu per satu. Semua produk dan gambar yang ada di Meowww, di proses di buat dan di gambar secara 1 per 1. apa itu 1 per 1? Yaitu proses pembuatan dengan metode demi metode. seperti dari mulai membuat ide, menggambar, merangkai sampai pesanan selesai semuanya di buat secara hati hati. Tanpa bantuan generating ai, aplikasi langsung jadi ataupun semacamnya. Jadi semua hasil gambar dan produk yang di buat kami menghasilkan produk yang unik, berkualitas dan menarik setiap buahnya. Siapa yang membuat dan berada di belakang, bisa di liat disini.</p>
+                    </div>
+                </li>
+            </ul>
+    
+        </div>
+    </div>
