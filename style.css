@@ -60,7 +60,7 @@ body {
 
 
 header {
-    background-color: #ecdd53;
+    background-color: #ff4148;
 }
 
 li {
@@ -93,19 +93,19 @@ a {
 .nav-branding {
     font-size: 2.2rem;
     font-family:monospace;
-    color: rgb(39, 39, 27);
+    color: rgb(255, 255, 255);
     font-weight: 500;
 }
 
 .nav-branding:hover{
     transform: scale(0.9);
     transition: 0.5s;
-    color: rgb(255, 255, 255)
+    color: rgb(255, 251, 42)
 }
 
 .nav-link {
     transition: 0.7s ease;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 18px;
     font-family: monospace;
 }
@@ -126,7 +126,7 @@ a {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 
 @media(max-width:768px) {
@@ -146,7 +146,7 @@ a {
         top: 70px;
         gap: 20px;
         flex-direction: column;
-        background-color: #ecdd53;
+        background-color: #ff4148;
         width: 100%;
         text-align: center;
         transition: 0.3s;
